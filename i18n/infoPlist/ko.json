@@ -1,0 +1,7 @@
+{
+  "NSMotionUsageDescription": "이 앱은 모션 센서 데이터를 사용자에게 직접 표시하기 위해 모션 센서 접근 권한이 필요합니다.",
+  "NSPhotoLibraryUsageDescription": "사진은 중복 항목 식별 목적으로만 사용됩니다. 어떠한 개인 데이터도 당사 서버에 업로드되지 않습니다.",
+  "NSContactsUsageDescription": "연락처는 중복 항목 식별 목적으로만 사용됩니다. 어떠한 개인 데이터도 당사 서버에 업로드되지 않습니다.",
+  "PHPhotoLibraryPreventAutomaticLimitedAccessAlert": true,
+  "NSCameraUsageDescription": "카메라 접근 권한을 허용하면 앱에서 사진을 촬영하여 사용할 수 있습니다. 귀하의 개인 데이터는 어떠한 것도 당사 서버에 업로드되지 않습니다."
+}

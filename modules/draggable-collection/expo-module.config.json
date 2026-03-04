@@ -1,0 +1,9 @@
+{
+  "platforms": ["apple"],
+  "apple": {
+    "modules": ["DraggableCollectionModule"]
+  },
+  "android": {
+    "modules": ["expo.modules.draggablecollection.DraggableCollectionModule"]
+  }
+}

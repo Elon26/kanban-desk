@@ -1,0 +1,7 @@
+{
+  "NSMotionUsageDescription": "このアプリは、センサーの生データをユーザーに直接表示するために、モーションセンサーへのアクセスを必要とします。",
+  "NSPhotoLibraryUsageDescription": "お客様の写真は、重複エントリの識別のみに使用されます。個人データが当社のサーバーにアップロードされることは一切ありません。",
+  "NSContactsUsageDescription": "お客様の連絡先は、重複エントリの識別のみに使用されます。個人データが当社のサーバーにアップロードされることは一切ありません。",
+  "PHPhotoLibraryPreventAutomaticLimitedAccessAlert": true,
+  "NSCameraUsageDescription": "アプリケーションが写真を撮影して使用できるように、カメラへのアクセスを許可してください。お客様の個人データが当社のサーバーにアップロードされることは一切ありません。"
+}

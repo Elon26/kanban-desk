@@ -1,0 +1,7 @@
+{
+  "NSMotionUsageDescription": "This app requires access to motion sensors to display raw sensor data directly to the user.",
+  "NSPhotoLibraryUsageDescription": "Your photos are used to identify duplicate entries only. None of your personal data will be uploaded to our servers.",
+  "NSContactsUsageDescription": "Your contacts are used to identify duplicate entries only. None of your personal data will be uploaded to our servers.",
+  "PHPhotoLibraryPreventAutomaticLimitedAccessAlert": true,
+  "NSCameraUsageDescription": "Please, provide access to your camera so application can take photos and use them. We will not upload any of your private data to our servers."
+}

@@ -1,0 +1,16 @@
+export const config = {
+  isDev: __DEV__,
+  onboarding_paywall_id: 'a' as 'a' | 'b' | 'c' | 'd' | 'e',
+  in_app_paywall_id: 'a' as 'a' | 'b' | 'c' | 'd' | 'e',
+  onboarding_id: 'a' as 'a' | 'b' | 'c' | 'd',
+  subscription_for_paywall_d: 'a' as 'a' | 'b' | 'c',
+  subscription_for_paywall_e: 'a' as 'a' | 'b' | 'c',
+  enable_extra_features: true,
+  moderation_mode: true,
+  annoyingPaywallA: false,
+  annoyingPaywallB: false,
+  annoyingPaywallC: false,
+  annoyingPaywallD: false,
+  annoyingPaywallE: false,
+  newMainScreenActive: false,
+} as const;
