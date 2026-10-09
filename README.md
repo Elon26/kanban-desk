@@ -1,122 +1,70 @@
-# kanban-desk
+# Kanban Task Manager (Client App)
 
-A commercial mobile application for task planning using a Kanban board approach.  
-The app allows users to manage tasks with custom statuses and tags, schedule reminders, and visually track progress via drag-and-drop.
-
-> Commercial project. Published on the App Store under a different name by the client’s request (public link is not available).
+A modern, high-performance client application for task planning and project organization using a Kanban board approach.
 
 ---
 
 ## 🗂 About the Project
 
-The project is designed for users who prefer visual task management using a Kanban workflow.  
-Users can create their own task statuses and tags, organize tasks into columns, and move tasks between statuses with drag-and-drop interactions.
+The application is designed for users who prefer visual task management using a flexible Kanban workflow, allowing them to organize tasks into columns, manage custom statuses, and track progress interactively.
 
-The app focuses on smooth UI/UX, interactive task management, and offline-first data storage.
+The project focuses on complex UI/UX interactions, smooth drag-and-drop mechanics, and predictable state management.
 
 ---
 
 ## 🧰 Tech Stack
 
-**Framework / Platform**
-- React Native  
-- TypeScript  
+**Framework & Core**
+- React Native / Component-Driven Architecture
+- TypeScript
 
-**State / Storage**
-- react-native-mmkv (local storage, no backend)
+**State & Local Storage**
+- react-native-mmkv (local-first storage, no backend)
 
 **Infrastructure & Services**
-- Firebase Storage
-- Firebase Remote Config
-- Sentry  
-- Apphud  
-- Facebook SDK  
+- Firebase (Storage, Remote Config)
+- Sentry, Apphud
 
-**UI / UX**
-- Tailwind (NativeWind)  
-- react-native-reanimated  
+**UI & Styling**
+- Tailwind CSS (NativeWind)
+- react-native-reanimated
 - i18n (localization)
 
 **Tooling**
-- ESLint  
-- Prettier  
+- ESLint, Prettier
 
 ---
 
-## ✨ Key Features
+## ✨ Key Features & Highlights
 
-- 📝 Task management:
-  - create and edit tasks  
-  - assign custom statuses and tags  
-- 🗃 Visual grouping:
-  - group tasks by status and tags  
-  - customizable status columns  
-- 🧲 Kanban board:
-  - drag-and-drop to change task status  
-  - visual columns for each status  
-- ⏰ Reminders:
-  - notifications for scheduled task time  
-- 🖼 Device cleanup:
-  - detect low-quality photos  
-  - find duplicate photos  
-  - clean up storage directly from the app  
-- 👥 Duplicate contacts detection:
-  - find contacts with similar names  
-  - find contacts with duplicate phone numbers  
-  - remove duplicates from the device  
-- 🔐 Secure local vault:
-  - store images, videos, and contacts  
-  - restrict access from other apps  
-- 🔑 Password generator & manager:
-  - synced with the system password storage  
-- 🌐 Internet speed test  
-- 🔍 Search and filtering across multiple sections  
-- 🎞 Smooth UI transitions and animated charts  
-- 💾 Local-first data storage using MMKV (no backend)
+- **Task & Workflow Management:** Create, edit, and organize tasks with custom statuses, tags, and multi-level filtering.
+- **Interactive Kanban Board:** Fluid column-based workspace with drag-and-drop task movement.
+- **Smart Reminders:** Scheduled notifications and time-based tracking.
+- **Advanced Filtering & Search:** Instant search and multi-section filtering across dense data sets.
+- **Offline-First Architecture:** Fast local data persistence using MMKV without relying on a remote backend.
+- **Monetization & Analytics:** Integrated subscriptions (Apphud), crash reporting (Sentry), and feature flags (Remote Config).
 
 ---
 
-## 👨‍💻 Role & Responsibilities
+## 👨‍💻 Role & Engineering Contributions
 
-The project was implemented entirely by me:
-- designed the application architecture;  
-- implemented task management logic and Kanban board interactions;  
-- built drag-and-drop UI and complex animations;  
-- integrated notifications and local storage;  
-- connected third-party services (analytics, crash reporting, monetization);  
-- prepared the app for production release.
-
----
-
-## 🧠 Challenges & Technical Decisions
-
-- Implemented complex Kanban board interactions with smooth drag-and-drop animations.  
-- Designed and implemented custom data visualizations and charts based on complex UI designs.  
-- Ensured UI performance while handling a large number of task cards and frequent state updates.  
-- Paid special attention to gesture handling and animation synchronization.
+- Designed and implemented the complete application architecture from scratch.
+- Developed complex Kanban board interactions, custom column logic, and fluid drag-and-drop mechanics.
+- Built performance-optimized UI components capable of handling frequent state updates and gesture handling.
+- Integrated third-party SDKs for analytics, monitoring, and in-app purchases.
 
 ---
 
 ## 🚀 Local Setup
 
-The project cannot be started without a .env file because it contains confidential keys and tokens.
+Clone the repository and install dependencies to run the project locally:
 
-Installation and run:
+```bash
+# Clone the repository
+git clone https://github.com/Elon26/kanban-desk.git
 
-- npm install
-- npm run start
+# Install dependencies
+npm install
 
----
-
-## 🧪 Code Quality
-
-- ESLint and Prettier are configured  
-- No automated tests (manual QA by a dedicated tester)  
-- Multiple environment variables are used for service configuration  
-
----
-
-## 📌 Notes
-
-This repository is intended to demonstrate architecture, UI complexity, and development approach.  
-The production version is published in the App Store under a different name according to the client’s requirements.
+# Run the project
+npm run start
